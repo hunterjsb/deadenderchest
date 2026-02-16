@@ -1,0 +1,15 @@
+name: DeadEnderChest
+version: '1.0'
+main: com.xandaris.deadenderchest.DeadEnderChestPlugin
+api-version: '1.21'
+description: Loot a dead player's ender chest by holding their head
+commands:
+  deadenderchest:
+    description: Open a dead player's ender chest
+    usage: /deadenderchest
+    aliases: [dec]
+    permission: deadenderchest.use
+permissions:
+  deadenderchest.use:
+    description: Allows using /deadenderchest to loot a dead player's ender chest
+    default: true
